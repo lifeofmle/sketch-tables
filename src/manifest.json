@@ -1,0 +1,30 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Create table",
+      "identifier": "create-table-identifier",
+      "script": "./create-table-command.js"
+    },
+    {
+      "name": "Insert row below",
+      "identifier": "insert-row-identifier",
+      "script": "./insert-row-command.js"
+    },
+    {
+      "name": "Insert column right",
+      "identifier": "insert-column-identifier",
+      "script": "./insert-column-command.js"
+    }
+  ],
+  "menu": {
+    "title": "Tables",
+    "items": [
+      "create-table-identifier",
+      "insert-row-identifier",
+      "insert-column-identifier"
+    ]
+  }
+}
