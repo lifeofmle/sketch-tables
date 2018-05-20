@@ -6,7 +6,7 @@
     {
       "name": "Create table",
       "identifier": "create-table-identifier",
-      "script": "./create-table-command.js"
+      "script": "./table.js"
     },
     {
       "name": "Insert row below",
